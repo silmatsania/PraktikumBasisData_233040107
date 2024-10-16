@@ -1,4 +1,3 @@
-
 SELECT nama_mahasiswa 
 FROM mahasiswa 
 WHERE mahasiswa_id   IN (
