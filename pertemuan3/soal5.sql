@@ -1,9 +1,9 @@
 SELECT 
-    c.custid, 
-    c.companyname, 
-    o.orderid, 
-    o.orderdate
+    orderid,
+    orderdate,
+    custid,
+    empid
 FROM 
-    Sales.Customers c
-LEFT OUTER JOIN 
-    Sales.Orders o ON c.custid = o.custid;
+    Sales.Orders
+WHERE 
+    orderdate = (SELECT MAX(orderdate) FROM Sales.Orders);
