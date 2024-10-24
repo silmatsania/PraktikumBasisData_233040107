@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 select * from jadwal_mata_kuliah
@@ -29,3 +30,9 @@ VALUES
 (20, 233040020, 'Lucas Ferreira', '2005-11-17', '1616 Magnolia St, Rio de Janeiro, Brazil', '812-3456-0122', 4, 10, 1);
 
 select * from mahasiswa
+=======
+select * from jadwal_mata_kuliah
+select nama_mata_kuliah
+from jadwal_mata_kuliah
+where kode_mata_kuliah IN ('TI101', 'SI201', 'TS301')
+>>>>>>> 42c984b6e4b80fa18d14362c60b5e2c7468be402
