@@ -1,6 +1,6 @@
 SELECT 
-    Projects.ProjectName AS ProyekNama, 
-    Departments.DepartmentName AS DepartemenNama
+    Projects.ProjectName, 
+    Departments.DepartmentName 
 FROM 
     Projects
 LEFT JOIN 
