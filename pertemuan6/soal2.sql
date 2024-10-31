@@ -1,6 +1,5 @@
 SELECT 
-    Employee.Name AS NamaKaryawan, 
-    Projects.ProjectName AS NamaProyek
+    Employee.Name , Projects.ProjectName
 FROM 
     Employee
 LEFT JOIN 
