@@ -1,6 +1,6 @@
 SELECT 
-    Employee.Name AS EmployeeName,
-    Salaries.Salaries AS Salary
+    Employee.Name,
+    Salaries.Salaries 
 FROM 
     Employee
 LEFT JOIN 
