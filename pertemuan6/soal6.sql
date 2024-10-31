@@ -1,6 +1,6 @@
 SELECT 
-    e1.Name AS KaryawanNama, 
-    e2.Name AS ManajerNama
+    e1.Name AS EmpleyeeName, 
+    e2.Name AS ManagerName
 FROM 
     Employee e1
 LEFT JOIN 
